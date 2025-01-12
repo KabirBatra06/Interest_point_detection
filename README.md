@@ -129,3 +129,18 @@ The summation goes over all the pixels in the \( 10 \times 10 \) grid.
 
 My implementation of NCC correspondence calculates the NCC for all pairs of interest points in the two images. The point in the second image that has the highest value of NCC for a point in the first image is deemed the corresponding interest point of the first image in the second image. I also ensure that the NCC score is greater than 0.3 so that the matches are more accurate, and false positives are more likely to be discarded.
 
+## Results
+
+<p align="center">
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/hovde/hovde_sift.jpg" width="350" title="Interest point using SIFT">
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/hovde/hovde_ssd2.jpg" width="350" title="Interest point using SSD">
+ <br>
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/rawls/rawls_sift.jpg" width="350" title="Interest point using SIFT">
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/rawls/rawls_ssd1.4.jpg" width="350" title="Interest point using SSD">
+ <br>
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/temple/temple_sift.jpg" width="350" title="Interest point using SIFT">
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/temple/temple_ssd1.4.jpg" width="350" title="Interest point using SSD">
+  <br>
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/socket/socket_sift.jpg" width="350" title="Interest point using SIFT">
+  <img src="https://github.com/KabirBatra06/Interest_point_detection/blob/main/socket/socket_ncc2.jpg" width="350" title="Interest point using NCC">
+</p>
